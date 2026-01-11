@@ -69,9 +69,9 @@ x-default-isaac-lab-volumes: &default-isaac-lab-volumes
   - type: bind
     source: .isaac-lab-docker-history
     target: ${DOCKER_USER_HOME}/.bash_history
-  - type: bind
-    source: /home/jliu/bb_isaaclab_ws
-    target: /home/jliu/bb_isaaclab_ws
+  # - type: bind
+  #   source: /home/jliu/bb_isaaclab_ws
+  #   target: /home/jliu/bb_isaaclab_ws
 
 x-default-isaac-lab-environment: &default-isaac-lab-environment
   - ISAACSIM_PATH=${DOCKER_ISAACLAB_PATH}/_isaac_sim
