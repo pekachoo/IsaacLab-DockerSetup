@@ -8,6 +8,8 @@ docs/
 !docs/licenses/
 # ignore logs
 **/logs/
+# but don't ignore the bb_final logs
+!bb_isaaclab_ws/logs/rsl_rl/bb_final/
 **/runs/
 **/output/*
 **/outputs/*
